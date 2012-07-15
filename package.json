@@ -1,0 +1,32 @@
+{
+  "author": "Phillip Johnsen <johphi@gmail.com>",
+  "name": "memorable-request",
+  "description": "simplifies HTTP requests and remembers cookies between each request",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/phillipj/node-memorable-request.git"
+  },
+  "keywords": [
+    "request",
+    "client",
+    "http",
+    "cookie",
+    "cookies"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "underscore": "1.3.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "nock": "0.13.x",
+    "should": "0.6.x"
+  },
+  "engines": {
+    "node": ">=0.6"
+  }
+}
